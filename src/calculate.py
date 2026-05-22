@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 app = FastAPI()
 
-def add_func(a:float, b:float) -> float:
+def add_func(a: float, b: float) -> float:
     return a + b
 
 
@@ -21,6 +21,6 @@ def home():
 
 
 @app.get("/add")
-def calculate_add(a:float, b:float):
+def calculate_add(a: float, b: float):
     result = add_func(a, b)
     return {"operation": "addition", "a": a, "b": b, "result": result}

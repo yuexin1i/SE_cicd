@@ -9,4 +9,4 @@ def test_add_func():
 def test_sub_func():
     assert sub_func(1,2) ==-1
     assert sub_func(0,0) ==0
-    assert sub_func(-1,-2) ==-3
+    assert sub_func(-1,-2) ==1

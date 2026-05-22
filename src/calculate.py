@@ -17,7 +17,7 @@ def mut(a: float, b: float) -> float:
 
 @app.get("/")
 def home():
-    return {"status":"Online","message":"這是簡易計算機API"}
+    return {"status": "Online", "message": "這是簡易計算機API"}
 
 
 @app.get("/add")

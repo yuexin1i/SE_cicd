@@ -8,4 +8,5 @@ def sub_func(a, b):
 
 
 def mut(a, b) -> float:
-    return "123"
+    #return "123"
+    return a*b
